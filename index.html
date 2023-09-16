@@ -10,21 +10,38 @@
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <img 
+        src="./assets/bowtie-cat.png" 
+        alt="Profile image of cat wearing a bow tie." 
+      />
       <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <li>The head element contains information about the webpage.</li>
-     <li>The body element represents the visible content shown to the user.</li>
+          <li>Usually composed of an opening tag and closing tag, angle brackets (< >).</li>
+          <li>HyperText Markup Language-most basic building block. Handles the content, structure, and meaning of each element.</li>
+          <li>The head element contains information/metadata about the webpage.</li>
+            <li>Title-required for Search Engine Optimization,</li> 
+            <li>Style-defines css</li>
+            <li>Base-defines url</li>
+            <li>Link-connects external resource</li>
+            <li>Meta-character set,description, keywords, author, viewport</li>
+            <li>Scripts-embeds client-side scripts.</li> 
+          <li>The body element represents the visible content shown to the user.</li>
+            <li> ul, ol, and li elements represent unordered lists, ordered lists, and list items.</li>
+            <li> br element creates a line of empty space, or a line break</li>
+            <li> a element (which stands for anchor) creates links to the same webpage or other webpages. The href attribute points to the URL for the link,</li>
+            <li> src attribute defines the location, or source, of the image file.</li>
+            <li> alt attribute contains a text string that describes the appearance and functionality of the image.</li>
         </ul>
       </section>
    
       <section class="card" id="css-section">
           <h2>CSS</h2>
           <ul>
+            <li>Cascading Style Sheets-describe presentation of a website and how each element is rendered/styled.</li>
             <li>A margin indicates how much space we want around the outside of an element.</li>
             <li>A padding indicates how much space we want around the content inside an element.</li>
           </ul>
@@ -33,14 +50,22 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
+          <li>free, open source version control system that allows web developers to collaborate on projects without overwriting each other's work.</li>
+          <li>Allows developers to revert to previous versions of the code if a problem is discovered.</li>
           <li>git status: checks what branch we are currently on</li>
-    <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git checkout name: changes the branch you're on</li>
+          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git add -A: commit all files in the working branch</li>
+          <li>git commit -m "message": to associate a message with our commit. Commit messages should be short descriptive messages of the changes implemented.</li>
+          <li>git pull origin main: makes sure current branch is up to date with base branch before pushing up any code!</li>
+          <li>git push origin feature/name: Push changes, then able to merge feature with base on github</li>
         </ul>
       </section>
    
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
+          <li>Provides logic and user interactivity.</li>
           <li>A variable is a named container that allows us to store data in our code.</li>
           <li>Control flow is the order in which a computer executes code in a script.</li>
         </ul>
